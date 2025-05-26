@@ -1,5 +1,6 @@
 // ignore_for_file: file_names
 
+import 'package:flu_app/Screens/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax_flutter/iconsax_flutter.dart';
 
@@ -24,7 +25,7 @@ class Coffee {
 
 final listOfCoffee = [
   Coffee(
-    image: 'assets/coffee-shop/coffee4.png',
+    image: 'assets/images/coffee4.png',
     name: 'Caffee Mocha',
     type: 'Deep Foam',
     rate: 4.8,
@@ -34,7 +35,7 @@ final listOfCoffee = [
     price: 4.53,
   ),
   Coffee(
-    image: 'assets/coffee-shop/coffee3.png',
+    image: 'assets/images/coffee3.png',
     name: 'Flat White',
     type: 'Espresso',
     rate: 4.8,
@@ -44,7 +45,7 @@ final listOfCoffee = [
     price: 3.53,
   ),
   Coffee(
-    image: 'assets/coffee-shop/coffee2.png',
+    image: 'assets/images/coffee2.png',
     name: 'Mocha Fusi',
     type: 'Ice/Hot',
     rate: 4.8,
@@ -54,7 +55,7 @@ final listOfCoffee = [
     price: 8.53,
   ),
   Coffee(
-    image: 'assets/coffee-shop/coffee1.png',
+    image: 'assets/images/coffee1.png',
     name: 'Irish Coffee',
     type: 'Popular',
     rate: 4.8,
@@ -64,7 +65,7 @@ final listOfCoffee = [
     price: 5.53,
   ),
   Coffee(
-    image: 'assets/coffee-shop/coffee5.png',
+    image: 'assets/images/coffee5.png',
     name: 'Affogato',
     type: 'Creamy',
     rate: 4.8,
@@ -84,7 +85,7 @@ final coffeeCategories = [
 final menu = [
   {
     'icon': Iconsax.home,
-    'destination': const Center(child: Text('Home')),
+    'destination': const CoffeeAppHomeScreen(),
   },
   {
     'icon': Iconsax.heart,
