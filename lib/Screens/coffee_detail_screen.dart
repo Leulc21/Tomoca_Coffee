@@ -87,7 +87,7 @@ class _CoffeeDetaiScreenState extends State<CoffeeDetaiScreen> {
                       Row(
                         children: [
                           Image.asset(
-                            "assets/coffee-shop/ic_star_filled.png",
+                            "assets/images/ic_star_filled.png",
                             width: 20,
                             height: 20,
                           ),
@@ -113,9 +113,9 @@ class _CoffeeDetaiScreenState extends State<CoffeeDetaiScreen> {
                   ),
                   Row(
                     children: [
-                      "assets/coffee-shop/bike.png",
-                      "assets/coffee-shop/bean.png",
-                      "assets/coffee-shop/milk.png",
+                      "assets/images/bike.png",
+                      "assets/images/bean.png",
+                      "assets/images/milk.png",
                     ].map((e) {
                       return Container(
                         margin: const EdgeInsets.only(left: 12),
